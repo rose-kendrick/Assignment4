@@ -8,3 +8,5 @@ These files inclde
   - Explanitory file using markdown
 - max.sh
   - Bash script that asks for user input for two numbers and outputs the larger of the two. 
+- filetesttest.sh
+  - Bash script that copies filetest.sh from another directory into this one and tests whether it exists and if it empty. It also prints out the permssions on the file. 
