@@ -16,7 +16,7 @@ T=[]
 
 def f(T,i):
     #(W m^-2 sr^-1 Hz^-1)                               
-    y = (((2*k*(v[i])**2)/(c**2))*(T/(1+(d[i])*np.sqrt(T)))*(1-e**((-a[i])*(T)**(b[i]))))
+    y = (((2*k*(v[i])**2)/(c**2))*(T/(1+(d[i])*np.sqrt(T)))*(1-e**((-a[i])*(T)**(b[i]))))-F[i]
     return y
 
 l=float(input('guess a value '))

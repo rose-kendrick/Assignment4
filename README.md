@@ -12,3 +12,5 @@ These files inclde
   - Bash script that copies filetest.sh from another directory into this one and tests whether it exists and if it empty. It also prints out the permssions on the file. 
 - mwr.py
   - Uses bisection to solve for the temperature at different depths on Jupiter and plots Temperature vs Depth, saving to mwrTemperature.png.
+- .gitignore
+  - Keeps git from commiting any plots I made in mwr.py. 
