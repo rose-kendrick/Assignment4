@@ -10,3 +10,5 @@ These files inclde
   - Bash script that asks for user input for two numbers and outputs the larger of the two. 
 - filetesttest.sh
   - Bash script that copies filetest.sh from another directory into this one and tests whether it exists and if it empty. It also prints out the permssions on the file. 
+- mwr.py
+  - Uses bisection to solve for the temperature at different depths on Jupiter and plots Temperature vs Depth, saving to mwrTemperature.png.
