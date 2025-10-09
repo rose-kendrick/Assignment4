@@ -19,15 +19,15 @@ def f(T,i):
     y = (((2*k*(v[i])**2)/(c**2))*(T/(1+(d[i])*np.sqrt(T)))*(1-e**((-a[i])*(T)**(b[i]))))-F[i]
     return y
 
-l=float(input('guess a value '))
-m=float(input('guess another value '))
+li=float(input('guess a value '))
+mi=float(input('guess another value '))
 
-tol=1e-6
+tol=1e-23
 
 for i in range(I):
-    #l=float(input('guess a value '))
-    #m=float(input('guess another value '))
+    l,m=li,mi
     
+
     if f(l,i)*f(m,i)>0:
         print('Try again with differnt numbers')
     else:
